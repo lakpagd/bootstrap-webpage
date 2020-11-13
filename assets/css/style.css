@@ -1,3 +1,7 @@
 .btn {
     border: 1px dashed gray;
 }
+
+#navbarNavDropdown {
+    text-align: center;
+}
