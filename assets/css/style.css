@@ -1,7 +1,156 @@
-.btn {
-    border: 1px dashed gray;
+body {
+	font-family: "Roboto", sans-serif;
 }
 
+/* Alert Container */
+
+.alert-container .col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    color: #564206;
+    background-color: #d6ae31;
+    border-color: #d6ae31;
+}
+
+/* Callout Container */
+
+.callout-container {
+	height: 100vh;
+	background: url(../images/whiskey-background.jpg) no-repeat bottom right
+		fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+}
+
+.opaque-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Quotes */
+.qoutes-conatiner {
+}
+
+/* Features */
+
+.features-container {
+}
+
+/* Monthly Favourite */
+.monthly-fav-container {
+}
+
+/* Block-divider */
+
+.block-divider {
+	width: 75px;
+	height: 5px;
+	border: 0;
+	background-color: #444;
+}
+
+.block-divider--color {
+	background-color: #f0a550;
+}
+
+.block-divider--short {
+	width: 35px;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	background-color: transparent;
+}
+
+.jumbotron-header {
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+	margin: 20px 0;
+	color: #a7a7a7;
+}
+
+.jumbotron small {
+	font-size: 60%;
+	font-style: italic;
+	color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn--cta {
+	font-weight: bold;
+	border-radius: 25px;
+	width: 160px;
+}
+
+.btn--red {
+	color: #ffffff;
+	background-color: #f0a550;
+	border-color: #f0a550;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+	background-color: #c36d0b;
+	border-color: #c36d0b;
+	color: #ffffff;
+}
+
+/* Navbar */
+
 #navbarNavDropdown {
-    text-align: center;
+	text-align: center;
+}
+
+.navalert-container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-left: 0;
+	padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+	width: 100%;
+	border: 0;
+	margin-bottom: 0;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    font-weight: bold;
 }
