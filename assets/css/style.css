@@ -2,27 +2,28 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-.container-wrapper {}
+.container-wrapper {
+}
 
 .container-wrapper--orange {
-    background-color: #f0a550;
-    color: #ffffff;
+	background-color: #f0a550;
+	color: #ffffff;
 }
 
 /* Alert Container */
 
 .alert-container .col-12 {
-    padding-left: 0px;
-    padding-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .site-wide-alert {
-    border-radius: 0;
-    margin-bottom: 0;
-    padding: 5px 15px;
-    color: #564206;
-    background-color: #d6ae31;
-    border-color: #d6ae31;
+	border-radius: 0;
+	margin-bottom: 0;
+	padding: 5px 15px;
+	color: #564206;
+	background-color: #d6ae31;
+	border-color: #d6ae31;
 }
 
 /* Callout Container */
@@ -56,10 +57,44 @@ body {
 .qoutes-conatiner {
 }
 
-
 /* Features */
 
 .features-container {
+}
+
+.feature {
+	text-align: justify;
+	text-justify: inter-word;
+	margin-bottom: 40px;
+}
+
+.feature h3 {
+	text-align: center;
+}
+
+.feature i {
+	margin-bottom: 25px;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.feature .btn {
+	margin-top: 10px;
+	background-color: white;
+	border-color: white;
+	border-radius: 15px;
+	color: #f0a550;
+	font-weight: bold;
+	min-width: 100px;
+}
+
+.btn--readmore:hover,
+.btn--readmore:active,
+.btn--readmore:focus,
+.btn--readmore:active:focus {
+    border: 2px solid #ffffff;
+    background-color: #f0a550;
+    color: #ffffff;
 }
 
 /* Monthly Favourite */
@@ -69,19 +104,23 @@ body {
 /* Page headers */
 
 .page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;   
+	margin-bottom: 0;
+	border-bottom: 0;
+	text-align: center;
 }
 
 .page-header h2 {
-    margin-bottom: 0;
+	margin-bottom: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
 }
 
 /* Content container */
 
 .content-container {
-    padding: 75px 0;
+	padding: 75px 0;
 }
 
 /* Block-divider */
@@ -99,6 +138,10 @@ body {
 
 .block-divider--short {
 	width: 35px;
+}
+
+.block-divider--white {
+	background-color: #ffffff;
 }
 
 /* Jumbotron */
@@ -138,10 +181,10 @@ body {
 	border-color: #f0a550;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
+.btn--orange:hover,
+.btn--orange:active,
+.btn--orange:focus,
+.btn--orange:active:focus {
 	background-color: #c36d0b;
 	border-color: #c36d0b;
 	color: #ffffff;
@@ -159,24 +202,24 @@ body {
 	top: 0;
 	padding-left: 0;
 	padding-right: 0;
-    z-index: 1;
+	z-index: 1;
 }
 
 .navbar {
 	width: 100%;
 	border: 0;
 	margin-bottom: 0;
-    background-color: rgba(0,0,0,0.25);
+	background-color: rgba(0, 0, 0, 0.25);
 }
 
 .navbar .navbar-toggler {
-    border: 0;
+	border: 0;
 }
 
 .navbar-brand {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .navbar .navbar-nav {
-    font-weight: bold;
+	font-weight: bold;
 }
